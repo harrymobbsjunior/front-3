@@ -1,0 +1,70 @@
+/* Rectangle 2 */
+div.DHGamesItemRow {
+    display: inline-block;
+    width: 100%;
+    
+    background: #151515;
+    // background: #adadad;
+    border-radius: 12px;
+    
+    border: 2px solid #FFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    img.thumb {
+        float: left;
+        border: 0px solid #FFF;
+        border-radius: 12px 0 0 12px;
+        margin-right: 20px;
+    }
+
+    h2 {
+        float: left;
+        /* Dark Souls 3 */
+        position: relative;
+        // left: 27.57%;
+        // right: 59.25%;
+        top: 0;
+        // bottom: 64.07%;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height */
+
+        color: #FFFFFF;
+    }
+    ul {
+        list-style: none;
+        display: block;
+        float: left;
+        border: 2px solid blue;
+        
+
+        li {
+            color: #FFF;
+            display: block;
+        }
+    }
+
+    p {
+        display: inline;
+        color: #FFF;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    p.price {
+        font-family: 'Poppins';
+        font-style: normal;
+        color: #FF7A00 !important;
+        font-size: 32px;
+        float: right;
+    }
+}
+
+
+
+

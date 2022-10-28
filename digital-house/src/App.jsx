@@ -4,6 +4,8 @@ import { TerceiraAula } from './aulas/TerceiraAula'
 import { SegundaAula } from './aulas/SegundaAula'
 import { Login } from './pages/Login'
 
+import { DHGames } from './pages/DHGames'
+
 function App() {
 
   return (  
@@ -12,7 +14,8 @@ function App() {
       {/* <SegundaAula></SegundaAula> */}
       {/* <TerceiraAula></TerceiraAula> */}
       {/* <QuartaAula /> */}
-      <QuintaAula />
+      {/* <QuintaAula /> */}
+      <DHGames />
     </>
   )
 
